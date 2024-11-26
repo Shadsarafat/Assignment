@@ -1,0 +1,35 @@
+h1{
+        text-shadow:3px 2px red;
+		color:orange;
+        font-size:32px;
+        text-align:center;
+        text-decoration:underline;
+}
+ h2{
+         background-color:green;
+		margin-left: 25%;
+		border:1px solid #d9d9d9;
+		box-shadow:6px 6px 6px 6px #d9d9d9;
+		height:340px;
+		width:50%;
+        text-align:center;
+        text-transform:lowercase;
+        font-style:arial,sans-serif;
+}
+li{
+ padding:10px;
+ margin:5px;
+ color: red;
+}
+h2::first-letter{
+      font-size:2em;
+       color:red;
+}
+h2:: first-line{
+   font-weight:bold;
+}
+div{
+border-width:1px;
+border-color:red;
+border-style:dotted;
+}
